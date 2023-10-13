@@ -1,0 +1,31 @@
+WebSite Link:https://stanford.edu/~cpiech/karel/ide.html
+
+
+//Function to move Karel diagonally from left bottom to right top
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   //your code here
+   putBeeper();
+   fourTimes();
+}
+function putbee(){
+move();
+turnLeft();
+move();
+putBeeper();
+turnRight();
+}
+
+function fourTimes(){
+putbee();
+putbee();
+putbee();
+putbee();
+}
+
+
+
