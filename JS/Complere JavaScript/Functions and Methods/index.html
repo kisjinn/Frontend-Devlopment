@@ -5,7 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script>
+    function selection() {
+        let options = document.getElementsByName("sub");
+
+        for (let i = 0; i < options.length; i++) {
+            if (options[i].checked) {
+                let selectedValue = options[i].value;
+                alert("You have selected: " + selectedValue);
+                break;
+            }
+        }
+    }
+</script>
+
 <body>
+<form>
+    <input type="radio" name="sub" value="Java" onclick="selection()">Java
+    <input type="radio" name="sub" value="Javascript" onclick="selection()">Javascript
+</form>
  <script src="./script.js"></script>   
 </body>
 </html>
