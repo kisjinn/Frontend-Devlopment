@@ -1,0 +1,17 @@
+#first{
+    color: blueviolet;
+}
+
+.heading{
+    color: grey;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-color:2px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
