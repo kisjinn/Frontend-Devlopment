@@ -1,0 +1,24 @@
+#box{
+    height: 250px;
+    width: 100px;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+
+button{
+    height: 0.7cm;
+    
+}
+
+.paragraph{
+    font-style: italic;
+    font-size: large;
+}
+
+.newClass{
+    background-color: blue;
+    text-decoration: dotted;
+}
