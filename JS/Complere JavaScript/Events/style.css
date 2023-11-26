@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 0.1cm black solid;
+    background-color: violet;
+    text-align: center;
+    color: blue;
+
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
